@@ -1,0 +1,61 @@
+/*----------------------
+    Google font link
+----------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/*----------------------
+    Common Style Start
+----------------------- */
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------------------
+    Common Style end
+----------------------- */
+
+/*----------------------
+    Header Style Start
+----------------------- */
+
+header{
+    background-color: #2D25A0;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.heading-title{
+    margin-top: 20px;
+}
+.heading-title  h1{
+    width: 485px;
+    font-size: 64px;
+    color: white;
+}
+.heading-title button{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    border: none;
+
+}
+button{
+    transition: width 2s linear, transform 2s;
+}
+button:hover{
+    width: 200px;
+    transform: scale(1.2);
+}
+.heading-photo img{
+    width: 556.01px;
+    margin-top: 40px;
+}
+
+/*----------------------
+    Header Style end
+----------------------- */
