@@ -363,7 +363,7 @@ footer{
         display: flex;
         flex-direction: column;
     }
-    ..time{
+    .time{
         font-size: 18px;
         color: #140a47;
 
