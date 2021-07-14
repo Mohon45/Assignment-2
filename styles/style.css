@@ -154,3 +154,126 @@ header{
 ----------------------------------*/
 
 
+/* Match section style start */
+
+.match-section{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+fieldset{
+    background-color: #ebe6df;
+    border: .75rem solid #001489;
+}
+legend{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #140a47;
+}
+.next-match-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title-box{
+    background-color: #FB7AFC;
+    padding: 0 1em;
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+}
+.time{
+    font-size: 30px;
+    color: #140a47;
+}
+.match-schedule-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.match-schedule{
+    margin-left: 20px;
+    border-right: 5px solid rgba(162, 178, 159, 0.5);
+}
+.match-title h3{
+    font-size: 30px;
+}
+.match-title p{
+    font-size: 20px;
+}
+.match-description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    margin-right: 20px;
+}
+.club-logo-name{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    width: 70px;
+}
+.name{
+    margin-left: 15px;
+}
+#right-border{
+    border-right: none;
+}
+.point-table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.point-table th{
+    border: 1px solid gray;
+    border-right: none;
+    border-left: none; 
+    height: 50px;
+}
+.point-table td{
+    height: 30px;
+
+}
+/* Match section style end */
+
+/* Sponsar section style start */
+
+.sponsar-section{
+    width: 100%;
+    background-color: lightgray;
+}
+.all-partner{
+    text-align: center;
+}
+.main-partner{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.partner-title,  h2{
+    font-size: 2.5rem;
+    color: #140a47;
+}
+hr{
+    border: 10px dotted #140a47;
+    border-bottom: none;
+    width: 200px;
+    position: relative;
+    left: 44%;
+    margin-bottom: 20px;
+}
+.company-logo img{
+    width: 300px;
+    margin: 15px;
+}
+.sponsor-title  h2{
+    font-size: 2.5rem;
+    color: #140a47;
+}
+
+/* Sponsar section style end */
+
