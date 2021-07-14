@@ -18,6 +18,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 70px;
+    margin-bottom: 0;
 }
 
 
@@ -41,6 +42,7 @@ header{
 }
 .heading-title{
     margin-top: 121px;
+    margin-left: 100px;
 }
 .heading-title  h1{
     width: 485px;
@@ -70,6 +72,7 @@ header{
     width: 556.01px;
     height: 438px;
     margin-top: 67px;
+    margin-right: 70px;
     margin-bottom: 86px;
 }
 
@@ -108,5 +111,46 @@ header{
 /*-----------------------
     Player Style end 
 ------------------------*/
+
+/*---------------------------------
+     Optional Section style start 
+----------------------------------*/
+
+.highlight{
+    display: flex;
+}
+.highlight-title{
+    width: 480px;
+    margin-top: 154px;
+    margin-left: 50px;
+
+}
+.highlight-title h2{
+    font-size: 48px;
+}
+.highlight-title p{
+    width: 404px;
+    font-size: 16px;
+}
+.btn-2{
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.highlight-photo img{
+    width: 567px;
+    height: 427px;
+    margin-top: 95px;
+    margin-left: 69px;
+}
+
+/*---------------------------------
+     Optional Section style end 
+----------------------------------*/
 
 
