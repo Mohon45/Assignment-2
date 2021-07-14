@@ -61,7 +61,7 @@ header{
 
 }
 .btn:hover{
-    transform: scale(1.3);
+    transform: scale(1.5);
     transition: transform 1s ease-in;
     cursor: pointer;
 }
@@ -307,3 +307,120 @@ footer{
 
 /* Footer style end */
 
+
+
+/*------------------------------------
+     Deference Device Responsive start 
+---------------------------------------*/
+
+/* Mobile Device style start */
+@media screen and (max-width: 668px) {
+    
+    .heading{
+        flex-direction: column;
+        width: 100%;
+    }
+    .heading-title{
+        margin-left: 20px;
+    }
+    .heading-title h1{
+        width: 278px;
+        font-size: 36px;
+    }
+    .heading-photo img{
+        width: 329px;
+        height: 259.17px;
+        position: relative;
+        left: 50px;
+    }
+    .players{
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blogs{
+        margin: 15px;
+    }
+    .highlight{
+        flex-direction: column;
+    }
+    .highlight-title{
+        width: 329px;
+        margin-left: 0;
+    }
+    .highlight-title p{
+        width: 329px;
+    }
+    .highlight-photo img{
+        width: 328px;
+        height: 248px;
+        margin-left: 0;
+    }
+    .fieldset{
+        padding: 0;
+    }
+    .next-match-title{
+        display: flex;
+        flex-direction: column;
+    }
+    ..time{
+        font-size: 18px;
+        color: #140a47;
+
+    }
+    .match-schedule{
+        border-right: none;
+        margin-bottom: 50px;
+    }
+    .match-section{
+        width: 100%;
+    }
+    .match-schedule-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .match-title h3{
+        font-size: 20px;
+    }
+    .match-title p{
+        font-size: 18px;
+    }
+    .match-description{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .point-table{
+        width: 100%;
+        text-align: left;
+        border-collapse: collapse;
+    }
+    hr{
+        border: 10px dotted #140a47;
+        border-bottom: none;
+        width: 200px;
+        position: relative;
+        left: 25%;
+        margin-bottom: 20px;
+    }
+    .football-icon img{
+        width: 300px;
+    }
+    .icon{
+        width: 32px;
+        height: 32px;
+        color: #4267B2;   
+    }
+    .copyright p{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+   
+
+/* Mobile Device style end */
+
+/*------------------------------------
+     Deference Device Responsive end 
+---------------------------------------*/
