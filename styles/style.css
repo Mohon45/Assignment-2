@@ -12,6 +12,12 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #B5EAEA;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
 }
 
 
@@ -70,5 +76,37 @@ header{
 /*----------------------
     Header Style end
 ----------------------- */
+
+/*-----------------------
+    Player Style start 
+------------------------*/
+
+.players{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+}
+.blogs{
+    width: 330px;
+    background-color: #FFFFFF;
+    
+}
+.blogs:hover{
+    box-shadow: 0px 0px 40px rgb(187, 187, 187, 2);
+}
+.blog{
+    margin: 15px;
+}
+.thumbnail img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+
+/*-----------------------
+    Player Style end 
+------------------------*/
 
 
